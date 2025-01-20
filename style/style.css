@@ -1,0 +1,44 @@
+/* Shared style */
+.btn{
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.body{
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.nav-title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 25px;
+}
+.list{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+}
