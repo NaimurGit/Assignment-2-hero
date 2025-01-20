@@ -11,6 +11,8 @@
     max-width: 1440px;
     margin: auto;
     width: 100%;
+    background-image: url("../assets/bg.png") ;
+   
 }
 /* nav style */
 nav{
@@ -32,13 +34,92 @@ h1{
     gap: 10px;
     align-items: center;
 }
-.menu{
-    display: flex;
-    gap: 25px;
-}
+
 .list{
     display: flex;
     gap: 25px;
     list-style: none;
     justify-content: center;
+}
+#Home{
+   color: olivedrab
+}
+#About{
+   color: orange;
+}
+#Facilities{
+   color: brown;
+}
+#Admission{
+   color: blueviolet;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+    
+ }
+ .description{
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 75px;
+ }
+ /* main Style */
+ .btn1{
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.btn2{
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.btn3{
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.card-inside{
+    background-image: linear-gradient(rgb(251, 222, 226), rgb(255, 242, 244), rgb(255, 248, 250), white);
+}
+.bold{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Responsive Nav */
+@media screen and (max-width: 576px ) {
+   nav,
+   .banner{
+    flex-direction: column;
+   } 
+   .card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 25px;
+    padding: 20px;
+    text-align: center;
+   }
 }
