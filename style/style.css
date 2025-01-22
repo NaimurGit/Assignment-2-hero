@@ -99,7 +99,7 @@ h1 {
     height: fit-content;
     width: fit-content;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 65px;
 }
 
 /* main Style */
@@ -281,14 +281,15 @@ footer {
     padding: 70px;
     border: none;
     color: white;
+    gap: 20px;
 }
 
 
-.flist {
+.f-list {
     list-style: none;
 }
 
-.ftitle {
+.f-title {
     display: flex;
 }
 
